@@ -2,14 +2,13 @@
 head -n 16 sherlock.txt | tail -8
 
 #2. Search for the word Holmes in the first 1000 lines, then copy results to extract.txt
-head -n 1000 sherlock.txt | grep -w "Holmes" >> extract.txt
+ head -n 1000 sherlock.txt | grep -w "Holmes" >> extract.txt
 
 #3. Append the current date to extract.txt
 date >> extract.txt
 
 #4. Read the output of extracted.txt
 more extract.txt
-less extract.txt
 cat extract.txt
 
 #5. Copy extract.txt into a new file called extracted_backup.txt
@@ -26,6 +25,7 @@ rm extract*
 host google.com
 
 #9. Same query as #8 but only lines with mail addresses. Then write out to google.txt
-host google.com | grep "mail"
+
+
 
 
