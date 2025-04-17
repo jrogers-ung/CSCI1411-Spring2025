@@ -36,9 +36,9 @@ import azuremaps
 
 
 # HINT: The number of total IPs found in the log file should return
-# length of 150. The number of unique IPs found should return: 135
-# Use print statements to validate your lists. It is recommended 
-# validating your list lenghts before proceeding...
+# length of around 1380. The number of unique IPs found should return around: 125
+# Use print statements to validate your lists. Its recommended to
+# validate your list lengths before proceeding...
 #print(ips)
 #print(len(ips))
 #print(len(unique_ips))
